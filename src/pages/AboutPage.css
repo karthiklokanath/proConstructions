@@ -1,0 +1,49 @@
+.about-page {
+  padding: 2rem;
+  text-align: center;
+}
+
+.about-page .hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem 2rem;
+    margin-bottom: 2rem;
+    position: relative;
+    overflow: hidden;
+    background-color: #f0f0f0;
+}
+
+.about-page .hero-image {
+    width: 50%;
+    height: auto;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+.about-page .hero-content {
+    width: 50%;
+    padding: 2rem;
+    z-index: 1;
+    text-align: left;
+}
+
+.about-page h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.about-content {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.about-content p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
